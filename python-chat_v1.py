@@ -1,7 +1,7 @@
-This code makes it possible to chat with Chat-GPT using python
-There is probably some adjustments that can be made to the parameters such as max tokens etc.
+#This code makes it possible to chat with Chat-GPT using python
+#There is probably some adjustments that can be made to the parameters such as max tokens etc.
 
-```
+
 import openai
 
 openai.api_key = "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"
@@ -23,4 +23,4 @@ prompt = "Explain the theory about LF NMR transverse relaxation time"
 
 response = generate_response(prompt)
 print(response)
-```
+
