@@ -4,7 +4,7 @@
 
 import openai
 
-openai.api_key = "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"
+openai.api_key = "your_api"
 
 def generate_response(prompt, model="text-davinci-002"):
     completions = openai.Completion.create(
